@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project title </title>
     <!-- @End -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
 
     <script src="https://kit.fontawesome.com/050941a67e.js" crossorigin="anonymous">
     </script>
@@ -17,38 +21,15 @@
 
 <body>
 
+    <div class="timer">
+        <button>Show timer</button>
 
-    <!-- Header con logo start -->
-    <header>
-        <h1>Weather App is here</h1>
-    </header>
-    <!-- Header con logo end -->
-
-    <div class="container">
-        <div id="search">
-            <label for="city">City Name</label>
-            <input type="text" id="city">
-            <button type="button">Show weather</button>
-        </div>
-        <div id="load">
-            loading..
-        </div>
-        <div id="weather">
-            <h1 id="cityName">City Name</h1>
-            <div id="weatherDescription">Weather Description</div>
-            <div id="weatherTemperature">Temperature °C</div>
-        </div>
+        <div class="showInfo"></div>
     </div>
 
 
+    <script src="timer.js"></script>
 
-
-
-    <script src="init.js"></script>
-    <script src="functions.js"></script>
-
-    <script src="/build/query-selector-standalone-debug.js"></script>
-    <script src="/querySelector.js"></script>
 
 </body>
 
