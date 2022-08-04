@@ -14,21 +14,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 
 
-    <script src="https://kit.fontawesome.com/050941a67e.js" crossorigin="anonymous">
-    </script>
+
+    <script src="https://kit.fontawesome.com/050941a67e.js" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body>
 
-    <div class="timer">
-        <button>Show timer</button>
 
-        <div class="showInfo"></div>
+
+    <div class="timer">
+        <button id="show">Show timer</button>
+        <button id="hide">Hide timer</button>
+        <div class="showInfo " id="MyClockDisplay"></div>
     </div>
 
+    <!-- 
+    <div class="stickman-kick">
+        <img id="img"
+            src="https://cdn2.iconfinder.com/data/icons/fighter-fighting-attacking-poses/216/fight-019-512.png">
+    </div>
+-->
 
     <script src="timer.js"></script>
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
+
+
+    <!-- 
+    <script>
+
+        anime({
+            targets: '#img', //set the name class or id or exc
+            translateX: 550,
+            delay: 1000
+        })
+
+        anime({
+            delay: 1100,
+            targets: '.timer', //set the name class or id or exc
+            scale: 1,
+            rotate: '1turn',
+            translateX: 300,
+            translateY: -200,
+        })
+    </script>
+
+    -->
 
 
 </body>
