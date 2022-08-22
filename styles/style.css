@@ -1,33 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 body {
   background-image: url("https://wallpaperaccess.com/full/4174801.jpg");
-  width: 1440px;
 }
 
-.timer {
+.forms {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 450px;
+  margin-top: 100px;
 }
-.timer button {
+.forms .allergiesForm {
+  margin-left: 20px;
   width: 200px;
-  height: 100px;
-  background-color: white;
-  color: rgb(2, 157, 189);
-  border: none;
-  border-radius: 5px;
-  font-size: 30px;
-  font-family: "Source Sans Pro", sans-serif;
+  height: 50px;
 }
-.timer button:hover {
+.forms .allergiesForm::-moz-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.forms .allergiesForm:-ms-input-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.forms .allergiesForm::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.forms .allergiesForm:hover {
+  background-color: rgb(241, 241, 241);
+}
+.forms .nameForm {
   width: 200px;
-  height: 100px;
-  background-color: rgb(54, 54, 54);
-  color: orange;
+  height: 50px;
 }
-
-.showInfo {
-  font-size: 50px;
+.forms .nameForm::-moz-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.forms .nameForm:-ms-input-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.forms .nameForm::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
 }/*# sourceMappingURL=style.css.map */
